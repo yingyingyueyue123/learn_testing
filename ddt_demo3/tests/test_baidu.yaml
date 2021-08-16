@@ -1,0 +1,13 @@
+"case1":
+
+  "search_string": "itesting"
+
+  "expect_string": "iTesting"
+
+
+
+"case2":
+
+  "search_string": "itesting"
+
+  "expect_string": "iTesting"
