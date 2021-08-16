@@ -14,8 +14,12 @@ class SeleniumHelper(object):
             browser_name = 'chrome'
 
         if browser_name == 'chrome':
+            options = webdriver.ChromeOptions()
+            options.add_argument('--disable-gpu')
+            options.add_argument('--headless')
+            browser = webdriver.Chrome(chrome_options=options)
+            #browser = webdriver.Chrome()
 
-            browser = webdriver.Chrome()
 
         elif browser_name in ('firefox', 'ff'):
 
