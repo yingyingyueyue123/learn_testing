@@ -13,7 +13,7 @@ import requests
 def login():
     driver = webdriver.Chrome()
 
-    driver.implicitly_wait(30)
+    driver.implicitly_wait(5)
 
     base_url = "http://www.baidu.com/"
 

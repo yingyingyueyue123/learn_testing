@@ -17,7 +17,7 @@ if __name__ == "__main__":
 import unittest
 import os
 
-from learn_testing.unittest_web.test_web_demo1.common.html_reporter import GenerateReport
+from unittest_web.test_web_demo1.common.html_reporter import GenerateReport
 
 if __name__ == "__main__":
     suite = unittest.defaultTestLoader.discover(os.path.join(os.path.dirname(__file__), "tests"),
