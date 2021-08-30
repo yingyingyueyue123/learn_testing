@@ -1,23 +1,14 @@
 test_baidu_search (__main__.Baidu) ... ok
-test_baidu_set (__main__.Baidu) ... ERROR
-
-======================================================================
-ERROR: test_baidu_set (__main__.Baidu)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "D:/yueyue/pythontest/learn_testing/unittest_web/test_web_demo1\tests\test_baidu.py", line 38, in test_baidu_set
-    driver.get(self.base_url + "/gaoji/preferences.html")
-  File "D:\yueyue\pythonway\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
-    self.execute(Command.GET, {'url': url})
-  File "D:\yueyue\pythonway\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "D:\yueyue\pythonway\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=92.0.4515.131)
-
+test_baidu_set (__main__.Baidu) ... ok
 
 ----------------------------------------------------------------------
-Ran 2 tests in 32.147s
+Ran 2 tests in 10.161s
 
-FAILED (errors=1)
+OK
+test_get_new_message (__main__.TestLaGou) ... ok
+test_visit_lagou (__main__.TestLaGou) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.769s
+
+OK
